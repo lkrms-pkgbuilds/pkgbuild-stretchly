@@ -1,9 +1,9 @@
 # Maintainer: Luke Arms <luke@arms.to>
 
-_electron_version=25
+_electron_version=27
 pkgname=stretchly
 pkgver=1.15.1
-pkgrel=2
+pkgrel=3
 pkgdesc="The break time reminder app"
 arch=('i686' 'x86_64')
 url="https://hovancik.net/stretchly"
