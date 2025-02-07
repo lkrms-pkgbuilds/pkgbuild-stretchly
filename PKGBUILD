@@ -9,7 +9,7 @@ arch=('i686' 'x86_64')
 url="https://hovancik.net/stretchly"
 license=('BSD')
 depends=('gtk3' 'http-parser' 'libappindicator-gtk3' 'libnotify' 'libxcrypt-compat' 'libxss' "electron$_electron_version")
-makedepends=('git' 'nvm' 'jq' 'python')
+makedepends=('git' 'nvm' 'jq' 'python' 'python-setuptools')
 conflicts=("${pkgname}-bin" "${pkgname}-git")
 source=("https://github.com/hovancik/stretchly/archive/v${pkgver}.tar.gz")
 

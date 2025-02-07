@@ -10,6 +10,7 @@ pkgbase = stretchly
 	makedepends = nvm
 	makedepends = jq
 	makedepends = python
+	makedepends = python-setuptools
 	depends = gtk3
 	depends = http-parser
 	depends = libappindicator-gtk3
